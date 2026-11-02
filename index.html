@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digby's Quest — Support</title>
+<meta name="description" content="Support and contact for Digby's Quest, a puzzle adventure for iPhone.">
+<style>
+:root { --bg: #1e130a; --panel: #2a1c10; --edge: #4a3420; --ink: #fff4d8; --dim: #c8b08a; --gold: #ffd23a; --red: #e8762a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(ellipse at 50% 0%, #3e2814 0%, var(--bg) 60%); background-attachment: fixed; color: var(--ink); font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-text-size-adjust: 100%; }
+.wrap { max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+header { margin-bottom: 2.5rem; }
+h1 { font-size: clamp(2.2rem, 8vw, 3rem); line-height: 1.05; margin: 0 0 .4rem; color: var(--gold); letter-spacing: -.01em; }
+.tag { color: var(--dim); margin: 0; font-size: 1.05rem; }
+h2 { font-size: 1.05rem; margin: 2.75rem 0 .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--dim); }
+p { margin: 0 0 1rem; }
+a { color: var(--gold); }
+.card { background: var(--panel); border: 1px solid var(--edge); border-radius: 12px; padding: 1.1rem 1.25rem; margin: 0 0 1rem; }
+.card p:last-child { margin-bottom: 0; }
+.mail { font-weight: 600; font-size: 1.1rem; }
+details { border-bottom: 1px solid var(--edge); padding: .9rem 0; }
+details:first-of-type { border-top: 1px solid var(--edge); }
+summary { cursor: pointer; font-weight: 600; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: "+ "; color: var(--gold); font-weight: 700; }
+details[open] summary::before { content: "\2013 "; }
+details p { margin: .7rem 0 .2rem; color: var(--dim); }
+ul { padding-left: 1.2rem; }
+li { margin-bottom: .35rem; }
+.date { color: var(--dim); }
+footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--edge); color: var(--dim); font-size: .92rem; }
+footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Digby's Quest</h1>
+    <p class="tag">A puzzle adventure to the king.</p>
+  </header>
+
+  <h2>Get in touch</h2>
+  <div class="card">
+    <p>Found a bug, stuck on a level, or have an idea? Write to me and I will read it.</p>
+    <p class="mail"><a href="mailto:digbysquest@gmail.com">digbysquest@gmail.com</a></p>
+    <p style="color:var(--dim);font-size:.92rem">It is one person answering, so give it a day or two. For a bug, the level number and what you were doing at the time is most of what I need.</p>
+  </div>
+
+  <h2>How to play</h2>
+  <details>
+    <summary>What do the numbers mean?</summary>
+    <p>A number tells you how many bombs touch that tile, diagonals included. Use the numbers to work out which tiles are safe to dig.</p>
+  </details>
+  <details>
+    <summary>How do I flag a bomb?</summary>
+    <p>Hold a tile for a moment, or switch to Flag at the bottom of the screen and tap it. A flag stops you digging that tile by accident.</p>
+  </details>
+  <details>
+    <summary>How do I finish a level?</summary>
+    <p>Dig a safe path from Digby to the exit at the top. As soon as the path is clear, he walks there. Finding the treasure and losing no hearts earn the other two stars.</p>
+  </details>
+  <details>
+    <summary>Do I ever have to guess?</summary>
+    <p>No. Every level can be solved by careful thinking alone. If you feel stuck, look for a number whose bombs are already all found: everything else around it is safe.</p>
+  </details>
+
+  <h2>Common questions</h2>
+  <details>
+    <summary>Where is my progress kept?</summary>
+    <p>On your device, and nowhere else. There is no account and no server, so your stars, coins, looks and power-ups live in the app itself.</p>
+  </details>
+  <details>
+    <summary>I deleted the app and lost my progress. Can you restore it?</summary>
+    <p>I am afraid not. Nothing is stored on a server, so deleting the app removes the save with it. Moving to a new phone with an iCloud device backup usually carries it across; a fresh install does not.</p>
+  </details>
+  <details>
+    <summary>Does it need an internet connection?</summary>
+    <p>No. It plays exactly the same offline.</p>
+  </details>
+  <details>
+    <summary>Can I play with my own music?</summary>
+    <p>Yes. The game's sound mixes with music from other apps, and you can turn the game's own music and sound effects down in the settings (the cog, top left).</p>
+  </details>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a></p>
+  </footer>
+</div>
+</body>
+</html>
